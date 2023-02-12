@@ -4,5 +4,10 @@ terraform {
       source  = "auth0/auth0"
       version = "0.43.0"
     }
+
+    ably = {
+      source  = "ably/ably"
+      version = "0.4.3"
+    }
   }
 }

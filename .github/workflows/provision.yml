@@ -17,6 +17,7 @@ jobs:
       TF_VAR_auth0_domain: ${{ secrets.AUTH0_DOMAIN }}
       TF_VAR_auth0_client_id: ${{ secrets.AUTH0_CLIENT_ID }}
       TF_VAR_auth0_client_secret: ${{ secrets.AUTH0_CLIENT_SECRET }}
+      TF_VAR_ably_api_token: ${{ secrets.ABLY_API_TOKEN }}
 
     # Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
     defaults:

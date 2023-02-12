@@ -1,6 +1,29 @@
 # This file is maintained automatically by "terraform init".
 # Manual edits may be lost in future updates.
 
+provider "registry.terraform.io/ably/ably" {
+  version     = "0.4.3"
+  constraints = "0.4.3"
+  hashes = [
+    "h1:P/PyKMq5Fkqi0Q9kp9PQLX37k7Sh+8UrK/35sYkAZos=",
+    "zh:0abbb236e5b5928a2260198bb96d4042b5b46ab9a972a3f4ee2a790f62fe821d",
+    "zh:0b49832a7b2058630db9213b0ea775bf74330f8964d47f891b5c69d8b0e5bf6f",
+    "zh:2bb13ea0ef04919cc0c89e105a996731ba8ebec3597e25aed1a4b63c793a3f56",
+    "zh:2bdeae3e0f9f2c21795d48454d663763613d572cde60dc97be40cd3ae3d6d75f",
+    "zh:379bdac6a57b03a9270765389ee567e7ff417eaf28204241dc179fd349a9f103",
+    "zh:3c5d65243d653c821d44ec2738c1f1f9f23edfd0d8356580219fa1d1c9d431a0",
+    "zh:541080ab47e27c2870bd537289e64dbdb9e631b476dd36b1e298e968b0f6f474",
+    "zh:7424d179300507d4757b473a21def953f05a84b0ae1e499271e5c7e8e470a448",
+    "zh:753ad16d007180a77a147bd377de2fb334f409123f6fee36d4c50c7fe8b76a29",
+    "zh:81fadf4e81a5dfa5e29049252d2146ab68f8cc262c5830a58679904ee5abbcdf",
+    "zh:8baab34eb308a54ae5fb570cf1a5e6bb8fa2143370c4717d65f945bbc84a9ea9",
+    "zh:c800a1766279539bb55254f20ec68f7c206adec59aab55025662dbb650a5fae3",
+    "zh:d6702663d90230c77a4bb4aa7079c2f10df1b69264134fb0bfd06edfa531c388",
+    "zh:da85a24b5795f07079b146ffdf3f4eaaf7b4d2246c7cb0f00b390d815f59205a",
+    "zh:fe572636b2e42a4191ed26cbe9df2f0a37a776c5343035bddb361f626162270d",
+  ]
+}
+
 provider "registry.terraform.io/auth0/auth0" {
   version     = "0.43.0"
   constraints = "0.43.0"
