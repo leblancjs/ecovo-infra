@@ -1,8 +1,4 @@
-variable "ably_api_token" {}
-
-provider "ably" {
-  token = var.ably_api_token
-}
+provider "ably" {}
 
 resource "ably_app" "ecovo" {
   name     = "ecovo"

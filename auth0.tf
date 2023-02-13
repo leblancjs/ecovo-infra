@@ -1,12 +1,6 @@
 variable "auth0_domain" {}
-variable "auth0_client_id" {}
-variable "auth0_client_secret" {}
 
-provider "auth0" {
-  domain        = var.auth0_domain
-  client_id     = var.auth0_client_id
-  client_secret = var.auth0_client_secret
-}
+provider "auth0" {}
 
 resource "auth0_client" "ecovo-mobile" {
   name        = "Ecovo Mobile"
