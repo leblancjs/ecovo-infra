@@ -1,5 +1,9 @@
 # Ecovo Infrastructure
 
+## Backend
+
+An AWS S3 Bucket is used as a Terraform backend. To create the bucket, an IAM user that has access to the bucket, and an access key to let the CI (i.e.: GitHub Actions) use AWS, see the instructions under the [backend/](backend/README.md) folder.
+
 ## Setup
 
 Run the following command:

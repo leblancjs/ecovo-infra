@@ -23,3 +23,5 @@ terraform apply
 ```
 
 This will create an S3 bucket to store the Terraform backend state, and an IAM user with a policy that has access to the bucket so that the CI can access it.
+
+You can retrieve the access key's ID and secret in the `terraform.tfstate` file that was generated. Look for the resource "backend_ci_user_access_key".
